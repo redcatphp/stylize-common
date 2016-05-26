@@ -1,0 +1,25 @@
+{
+    "name": "stylize-common",
+    "homepage": "https://github.com/stylize-common/",
+    "description": "Common scss components, stylize syntaxed and autoloadable structure ",
+	"keywords": [
+		"css",
+		"stylize",
+		"scss-php",
+		"scss",
+		"sass",
+		"navigator",
+		"fonts"
+	],
+    "authors": [
+        "Jo <jo@surikat.pro>"
+    ],
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+		"https://github.com/leafo/scssphp-compass.git":"*"
+    },
+    "install": {
+		
+    }
+}

@@ -1,0 +1,23 @@
+/*
+SVG background images with PNG and retina fallback
+This mixin depends on Modernizr and creates a bit more work for you when creating images for your site, but it’s really worth it in the end
+pattern.svg
+pattern.png
+pattern@2x.png
+@include background-image('pattern');
+*/
+$fallback-extension: 'png' !default;
+$retina-suffix: '@2x';
+@mixin background-image($name, $size:false){
+    background-image: url(#{$img}/#{$name}.svg);
+    @if($size){
+        background-size: $size;
+    }
+    .no-svg &{
+        background-image: url(#{$img}/#{$name}.#{$fallback-extension});
+
+        @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+          background-image: url(#{$img}/#{$name}#{$retina-suffix}.#{$fallback-extension});
+        }
+    }
+}

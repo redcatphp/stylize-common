@@ -1,0 +1,23 @@
+@mixin custom-scroll($trackColor, $thumbColor) {
+  /* Let's get this party started */
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background-color: $trackColor;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $thumbColor;
+  }
+
+  &::-webkit-scrollbar-thumb:window-inactive {
+    background: $thumbColor;
+  }
+
+  overflow: auto;
+}
