@@ -1,6 +1,6 @@
 {
     "name": "stylize-common",
-    "homepage": "https://github.com/stylize-common/",
+    "homepage": "https://github.com/redcatphp/stylize-common/",
     "description": "Common scss components, stylize syntaxed and autoloadable structure ",
 	"keywords": [
 		"css",
