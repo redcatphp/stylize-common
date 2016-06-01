@@ -16,7 +16,7 @@
     ],
     "license": "MIT",
     "dependencies": {
-		"https://github.com/leafo/scssphp-compass":"latest"
+		"scssphp-compass":"https://github.com/leafo/scssphp-compass.git#latest"
     },
     "install": {
 		
