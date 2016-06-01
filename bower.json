@@ -15,7 +15,6 @@
         "Jo <jo@surikat.pro>"
     ],
     "license": "MIT",
-    "private": true,
     "dependencies": {
 		"https://github.com/leafo/scssphp-compass":"latest"
     },
