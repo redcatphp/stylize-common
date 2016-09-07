@@ -1,0 +1,287 @@
+/* Material Colors */
+$m-white:		#FFFFFF !default;
+$m-black:		#000000 !default;
+$m-blue:		#2196F3 !default;
+$m-red:			#F44336 !default;
+$m-purple:		#9C27B0 !default;
+$m-deeppurple:	#673AB7 !default;
+$m-lightblue:	#03A9F4 !default;	
+$m-cyan:		#00BCD4 !default;
+$m-teal:		#009688 !default;
+$m-green:		#4CAF50 !default;
+$m-lightgreen:	#8BC34A !default;
+$m-lime:		#CDDC39 !default;
+$m-yellow:		#FFEB3B !default;
+$m-amber:		#FFC107 !default;
+$m-orange:		#FF9800 !default;
+$m-deeporange:	#FF5722 !default;
+$m-gray:		#9E9E9E !default;
+$m-bluegray:	#607D8B !default;
+$m-indigo:		#3F51B5 !default;
+$m-pink:		#E91E63 !default;
+$m-brown:		#795548 !default;
+
+@function alpha-color($color) {
+	$percent: alpha($color) * 100%;
+	$opaque: opacify($color, 1);
+	@return $color
+}
+
+$light-opacity: 0.5;
+
+.m-white{
+	color: $m-white !important;
+}
+.m-black{
+	color: $m-black !important;
+}
+.m-blue{
+	color: $m-blue !important;
+}
+.m-red{
+	color: $m-red !important;
+}
+.m-purple{
+	color: $m-purple !important;
+}
+.m-deeppurple{
+	color: $m-deeppurple !important;
+}
+.m-lightblue{
+	color: $m-lightblue !important;
+}
+.m-cyan{
+	color: $m-cyan !important;
+}
+.m-teal{
+	color: $m-teal !important;
+}
+.m-green{
+	color: $m-green !important;
+}
+.m-lightgreen{
+	color: $m-lightgreen !important;
+}
+.m-lime{
+	color: $m-lime !important;
+}
+.m-yellow{
+	color: $m-yellow !important;
+}
+.m-amber{
+	color: $m-amber !important;
+}
+.m-orange{
+	color: $m-orange !important;
+}
+.m-deeporange{
+	color: $m-deeporange !important;
+}
+.m-gray{
+	color: $m-gray !important;
+}
+.m-bluegray{
+	color: $m-bluegray !important;
+}
+.m-indigo{
+	color: $m-indigo !important;
+}
+.m-pink{
+	color: $m-pink !important;
+}
+.m-brown{
+	color: $m-brown !important;
+}
+
+.m-bg-white{
+	background-color: $m-white !important;
+}
+.m-bg-black{
+	background-color: $m-black !important;
+}
+.m-bg-blue{
+	background-color: $m-blue !important;
+}
+.m-bg-red{
+	background-color: $m-red !important;
+}
+.m-bg-purple{
+	background-color: $m-purple !important;
+}
+.m-bg-deeppurple{
+	background-color: $m-deeppurple !important;
+}
+.m-bg-lightblue{
+	background-color: $m-lightblue !important;
+}
+.m-bg-cyan{
+	background-color: $m-cyan !important;
+}
+.m-bg-teal{
+	background-color: $m-teal !important;
+}
+.m-bg-green{
+	background-color: $m-green !important;
+}
+.m-bg-lightgreen{
+	background-color: $m-lightgreen !important;
+}
+.m-bg-lime{
+	background-color: $m-lime !important;
+}
+.m-bg-yellow{
+	background-color: $m-yellow !important;
+}
+.m-bg-amber{
+	background-color: $m-amber !important;
+}
+.m-bg-orange{
+	background-color: $m-orange !important;
+}
+.m-bg-deeporange{
+	background-color: $m-deeporange !important;
+}
+.m-bg-gray{
+	background-color: $m-gray !important;
+}
+.m-bg-bluegray{
+	background-color: $m-bluegray !important;
+}
+.m-bg-indigo{
+	background-color: $m-indigo !important;
+}
+.m-bg-pink{
+	background-color: $m-pink !important;
+}
+.m-bg-brown{
+	background-color: $m-brown !important;
+}
+
+
+.m-white-light{
+	color: alpha-color(rgba($m-white, $light-opacity)) !important;
+}
+.m-black-light{
+	color: alpha-color(rgba($m-black, $light-opacity)) !important;
+}
+.m-blue-light{
+	color: alpha-color(rgba($m-blue, $light-opacity)) !important;
+}
+.m-red-light{
+	color: alpha-color(rgba($m-red, $light-opacity)) !important;
+}
+.m-purple-light{
+	color: alpha-color(rgba($m-purple, $light-opacity)) !important;
+}
+.m-deeppurple-light{
+	color: alpha-color(rgba($m-deeppurple, $light-opacity)) !important;
+}
+.m-lightblue-light{
+	color: alpha-color(rgba($m-lightblue, $light-opacity)) !important;
+}
+.m-cyan-light{
+	color: alpha-color(rgba($m-cyan, $light-opacity)) !important;
+}
+.m-teal-light{
+	color: alpha-color(rgba($m-teal, $light-opacity)) !important;
+}
+.m-green-light{
+	color: alpha-color(rgba($m-green, $light-opacity)) !important;
+}
+.m-lightgreen-light{
+	color: alpha-color(rgba($m-lightgreen, $light-opacity)) !important;
+}
+.m-lime-light{
+	color: alpha-color(rgba($m-lime, $light-opacity)) !important;
+}
+.m-yellow-light{
+	color: alpha-color(rgba($m-yellow, $light-opacity)) !important;
+}
+.m-amber-light{
+	color: alpha-color(rgba($m-amber, $light-opacity)) !important;
+}
+.m-orange-light{
+	color: alpha-color(rgba($m-orange, $light-opacity)) !important;
+}
+.m-deeporange-light{
+	color: alpha-color(rgba($m-deeporange, $light-opacity)) !important;
+}
+.m-gray-light{
+	color: alpha-color(rgba($m-gray, $light-opacity)) !important;
+}
+.m-bluegray-light{
+	color: alpha-color(rgba($m-bluegray, $light-opacity)) !important;
+}
+.m-indigo-light{
+	color: alpha-color(rgba($m-indigo, $light-opacity)) !important;
+}
+.m-pink-light{
+	color: alpha-color(rgba($m-pink, $light-opacity)) !important;
+}
+.m-brown-light{
+	color: alpha-color(rgba($m-brown, $light-opacity)) !important;
+}
+
+.m-bg-white-light{
+	background-color: alpha-color(rgba($m-white, $light-opacity)) !important;
+}
+.m-bg-black-light{
+	background-color: alpha-color(rgba($m-black, $light-opacity)) !important;
+}
+.m-bg-blue-light{
+	background-color: alpha-color(rgba($m-blue, $light-opacity)) !important;
+}
+.m-bg-red-light{
+	background-color: alpha-color(rgba($m-red, $light-opacity)) !important;
+}
+.m-bg-purple-light{
+	background-color: alpha-color(rgba($m-purple, $light-opacity)) !important;
+}
+.m-bg-deeppurple-light{
+	background-color: alpha-color(rgba($m-deeppurple, $light-opacity)) !important;
+}
+.m-bg-lightblue-light{
+	background-color: alpha-color(rgba($m-lightblue, $light-opacity)) !important;
+}
+.m-bg-cyan-light{
+	background-color: alpha-color(rgba($m-cyan, $light-opacity)) !important;
+}
+.m-bg-teal-light{
+	background-color: alpha-color(rgba($m-teal, $light-opacity)) !important;
+}
+.m-bg-green-light{
+	background-color: alpha-color(rgba($m-green, $light-opacity)) !important;
+}
+.m-bg-lightgreen-light{
+	background-color: alpha-color(rgba($m-lightgreen, $light-opacity)) !important;
+}
+.m-bg-lime-light{
+	background-color: alpha-color(rgba($m-lime, $light-opacity)) !important;
+}
+.m-bg-yellow-light{
+	background-color: alpha-color(rgba($m-yellow, $light-opacity)) !important;
+}
+.m-bg-amber-light{
+	background-color: alpha-color(rgba($m-amber, $light-opacity)) !important;
+}
+.m-bg-orange-light{
+	background-color: alpha-color(rgba($m-orange, $light-opacity)) !important;
+}
+.m-bg-deeporange-light{
+	background-color: alpha-color(rgba($m-deeporange, $light-opacity)) !important;
+}
+.m-bg-gray-light{
+	background-color: alpha-color(rgba($m-gray, $light-opacity)) !important;
+}
+.m-bg-bluegray-light{
+	background-color: alpha-color(rgba($m-bluegray, $light-opacity)) !important;
+}
+.m-bg-indigo-light{
+	background-color: alpha-color(rgba($m-indigo, $light-opacity)) !important;
+}
+.m-bg-pink-light{
+	background-color: alpha-color(rgba($m-pink, $light-opacity)) !important;
+}
+.m-bg-brown-light{
+	background-color: alpha-color(rgba($m-brown, $light-opacity)) !important;
+}
