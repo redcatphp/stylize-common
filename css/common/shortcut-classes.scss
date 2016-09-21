@@ -608,3 +608,8 @@ img.vertical{
 		min-width: 100px + $i*20;
 	}
 }
+
+.center-flex{
+	display: flex;
+	justify-content: center;
+}
